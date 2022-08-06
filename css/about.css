@@ -73,7 +73,8 @@ html,body
 
 .page img
 {
-  width: 100%;
+  width: 110%;
+  margin-left: -10px;
   position: relative;
   height: 20rem;
   filter: blur(3px);
@@ -84,7 +85,7 @@ html,body
 .pagetext h1
 {
   left: 5%;
-  margin-top: 30px;
+  margin-top: 50px;
   position: relative;
   z-index: 0.1;
 }
@@ -101,7 +102,7 @@ html,body
 
 .currentpage
 {
-  color: blue;
+  color: white;
 }
 
 .pagetext a
@@ -141,7 +142,7 @@ html,body
 
 .aboutcompney h2
 {
-  margin-top: 130px;
+  margin-top: 110px;
   font-size: 25px !important;
   margin-left: 10px;
   margin-bottom: 20px;
@@ -181,6 +182,7 @@ html,body
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-left: -10px;
 }
 
 .mission
@@ -197,7 +199,7 @@ html,body
   width: 500px;
   position: relative;
   height: 20rem;
-  filter: blur(3px);
+  filter: blur(5px);
   object-fit: cover;
   z-index: 0;
 }
@@ -210,19 +212,26 @@ html,body
 
 .mcard h1
 {
+  text-shadow: 3px 2px 1px black;
+  color: white;
   margin-top: 20px;
   text-align: center;
   position: relative;
+  object-fit: cover;
   z-index: 0.1;
+  margin-left: 10px;
 }
 
 .mcard p
 {
+  text-shadow: 1px 1px 1px black;
+  color: white;
   text-align: center;
   font-size: 15px;
   font-weight: 500;
   position: relative;
   z-index: 0.1;
+  margin-left: 10px;
 }
 
 

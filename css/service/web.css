@@ -17,7 +17,6 @@ html,body
 
 .animate-charcter
 {
-   text-transform: uppercase;
   background-image: linear-gradient(
     -100deg,
     #231557 0%,
@@ -79,7 +78,8 @@ html,body
 
 .page img
 {
-  width: 100%;
+  width: 110%;
+  margin-left: -10px;
   position: relative;
   height: 20rem;
   filter: blur(3px);
@@ -90,7 +90,7 @@ html,body
 .pagetext h1
 {
   left: 5%;
-  margin-top: 30px;
+  margin-top: 50px;
   position: relative;
   z-index: 0.1;
 }
@@ -107,7 +107,7 @@ html,body
 
 .currentpage
 {
-  color: blue;
+  color: white;
 }
 
 .pagetext a
@@ -141,8 +141,10 @@ html,body
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 200px;
-  height: 100px;
+  margin-top: 140px;
+  height: 200px;
+  filter: drop-shadow(5px 10px 5px black);
+
 }
 
 .info h1
@@ -238,7 +240,6 @@ html,body
   cursor: pointer;
 }
 .testimonials1 .item1 img {
-  border-radius: 50%;
   width: 5rem;
   height: 5rem;
   margin-bottom: 1rem;
@@ -465,6 +466,23 @@ html,body
   border-radius: 20px;
 }
 
+.fcard1:hover 
+{
+  background-color: #80a6ff;
+  color: black;
+}
+
+.fcard1:hover h4
+{
+  color: black;
+}
+
+.fcard1:hover p
+{
+  color: black;
+}
+
+
 .fcard1 img
 {
   margin-left: 85px;
@@ -477,7 +495,7 @@ html,body
 {
   text-align: center;
   font-size: 20px;
-  padding-left: 10px ;
+  padding: auto ;
   margin-top: 25px;
   color: white;
 }
@@ -490,7 +508,7 @@ html,body
   padding: 0 10px;
   word-wrap: break-word;
   text-align: justify; 
-  text-align-last: left;
+  text-align-last: center;
 }
 
 .protitle
@@ -524,7 +542,8 @@ html,body
 .fcontect img
 {
   margin-top: 60px;
-  width: 100%;
+  width: 110%;
+  margin-left: -10px;
   position: relative;
   height: 20rem;
   filter: blur(3px);
@@ -598,7 +617,7 @@ html,body
   z-index: 0;
   background: #151414;
   position: relative;
-  margin-top: 150px;
+  margin-top: 140px;
 }
 .footer-cta {
   border-bottom: 1px solid #373636;
