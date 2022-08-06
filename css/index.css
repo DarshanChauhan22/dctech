@@ -222,8 +222,6 @@ html,body
   transform: translate(-50%, -30%) rotate(0deg);
   width: 5rem;
   height: 5rem;
-  background: black;
-  border-radius: 50%;
 }
 
 .container2 .card2 .contentBx2{
@@ -380,7 +378,7 @@ html,body
 
 .achivement
 {
-  margin-top: -8rem;
+  margin-top: -6rem;
   margin-bottom: -6rem;
   color: #fff;
   display: flex;
@@ -412,7 +410,7 @@ html,body
   box-sizing: border-box;
   padding: 30px;
   width: 15rem;
-  height: 15rem;
+  height: 12rem;
   text-align: center;
   transition: transform 0.4s;
   -webkit-transform-style: preserve-3d;
@@ -421,23 +419,23 @@ html,body
   cursor: pointer;
 }
 .testimonials .item img {
-  border-radius: 50%;
-  margin-left: -10rem;
   width: 7rem;
   height: 7rem;
   margin-bottom: 5rem;
-  margin-top: -3rem;
+  margin-top: -4rem;
+  filter: drop-shadow(-10px 3px 3px black);
 }
 
 .testimonials .item p {
   text-align: left;
-  font-size: 15px;
+  font-size: 25px;
   color: #ddd;
   margin-top: -10px;
 }
 .testimonials .item h2 {
   text-align: left;
   font-size: 25px;
+  margin-top: -50px;
 }
 .dots {
   display: flex;
@@ -830,7 +828,6 @@ html,body
   cursor: pointer;
 }
 .testimonials1 .item1 img {
-  border-radius: 50%;
   width: 5rem;
   height: 5rem;
   margin-bottom: 1rem;
@@ -1123,16 +1120,15 @@ html,body
   margin: 20px;
   min-width: 250px;
   width: 270px;
-  height: 250px;
+  height: 270px;
   box-shadow: 0px 0px 10px #000;
-
   border-radius: 20px;
 }
 
 .fcard1 img
 {
   margin-left: 85px;
-  margin-top: 30px;
+  margin-top: 20px;
   width: 80px;
   height: 80px;
 }
@@ -1141,7 +1137,7 @@ html,body
 {
   text-align: center;
   font-size: 20px;
-  padding-left: 10px ;
+  padding: auto ;
   margin-top: 25px;
   color: white;
 }
@@ -1154,7 +1150,7 @@ html,body
   padding: 0 10px;
   word-wrap: break-word;
   text-align: justify; 
-  text-align-last: left;
+  text-align-last: center;
 }
 
 .protitle
