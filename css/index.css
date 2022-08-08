@@ -647,8 +647,8 @@ html,body
 {
   font-size: 15px;
   padding: 0 10px 0 10px;
-  text-align: justify; 
   text-align-last: left;
+  text-align: justify; 
 }
 
 
@@ -1352,6 +1352,8 @@ html,body
   font-size: 14px;
       color: #7e7e7e;
   line-height: 28px;
+   text-align-last: center;
+  text-align: justify;
 }
 .footer-social-icon span {
   text-align: center;

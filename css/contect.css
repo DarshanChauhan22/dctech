@@ -596,6 +596,7 @@ footer span {
   font-size: 14px;
       color: #7e7e7e;
   line-height: 28px;
+  text-align-last: center;
   text-align: justify;
 }
 .footer-social-icon span {
