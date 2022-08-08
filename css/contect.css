@@ -21,7 +21,7 @@ html,body
     -100deg,
     #231557 0%,
     #44107a 29%,
-    #ff1361 67%,
+    #2465ff 67%,
     #231557 100%
   );
   background-size: auto auto;
@@ -76,6 +76,7 @@ html,body
 
 .pagetext h1
 {
+  font-weight: 1000;
   left: 5%;
   margin-top: 50px;
   position: relative;
@@ -120,7 +121,11 @@ html,body
 
 
 
-
+.ctitle
+{
+  font-size: 25px !important;
+  font-weight: 1000;
+}
 
 .contect
 {
@@ -201,6 +206,7 @@ html,body
 
 .fotitle h1
 {
+  font-weight: 1000;
   font-size: 25px;
   margin-left: 10px;
 }
@@ -222,7 +228,7 @@ html,body
 
 .form
 {
-  padding: 30px;
+  padding: 10px;
 }
 
 a {
@@ -648,7 +654,7 @@ footer span {
   bottom: -15px;
   height: 2px;
   width: 100px;
-  background: #ff5e14;
+  background: #2465ff;
 }
 .footer-widget ul li {
   display: inline-block;
@@ -679,9 +685,9 @@ footer span {
 .subscribe-form button {
     position: absolute;
     right: 0;
-    background: #ff5e14;
+    background: #2465ff;
     padding: 13px 20px;
-    border: 1px solid #ff5e14;
+    border: 1px solid #2465ff;
     top: 0;
 }
 .subscribe-form button i {
